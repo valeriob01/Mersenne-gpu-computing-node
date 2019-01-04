@@ -15,7 +15,7 @@ apt install rocm-dev
 echo 'SUBSYSTEM=="kfd", KERNEL=="kfd", TAG+="uaccess", GROUP="video"' | tee /etc/udev/rules.d/70-kfd.rules
 
 usermod -a -G video root
-usermod -a -G video $(USER)
+#usermod -a -G video $(USER)
 
 echo 'ADD_EXTRA_GROUPS=1' | tee -a /etc/adduser.conf
 echo 'EXTRA_GROUPS=video' | tee -a /etc/adduser.conf
