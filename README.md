@@ -6,6 +6,8 @@ This script builds a complete Mersenne GPU Computing Node, it installs all the d
 
 - Mfakto: Mersenne trial factoring
 
+- Primetools: work fetch/submit scripts and other utilities
+
 - GpuOwl: Mersenne PRP test
 
 
