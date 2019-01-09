@@ -34,6 +34,10 @@ make
 
 cd /root
 
+git clone https://github.com/teknohog/primetools
+
+cd /root
+
 git clone https://github.com/preda/gpuowl
 cd gpuowl
 make
