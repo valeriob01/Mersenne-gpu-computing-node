@@ -1,6 +1,12 @@
 # GPU-Computing-Node Installation
 
-This script builds a complete Mersenne GPU Computing Node, it installs all the dependencies needed to run Mersenne GPU computing applications, then installs and compile the applications.
+New version of the script in Makefile style. Invoke with "make all".
+
+This Makefile builds a complete Mersenne GPU Computing Node, it installs all the dependencies needed to run Mersenne GPU computing applications, then installs and compile the applications.
+
+- Utilities: NTP, tmux, lm-sensors
+
+- Dependencies: libgmp-dev
 
 - ROCm: Radeon Open Compute driver
 
