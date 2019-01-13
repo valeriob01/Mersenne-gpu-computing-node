@@ -1,6 +1,6 @@
-all: base dependencies rocm mfakto primetools gpuowl
+all: utilities dependencies rocm mfakto primetools gpuowl
 
-base:
+utilities:
   apt update
   apt install ntp tmux lm-sensors
 
