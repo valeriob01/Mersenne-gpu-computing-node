@@ -5,7 +5,7 @@ base:
   apt install ntp tmux lm-sensors
 
 dependencies:
-  libgmp-dev
+  apt install libgmp-dev
 
 rocm:
   apt update
