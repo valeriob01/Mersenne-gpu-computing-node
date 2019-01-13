@@ -1,6 +1,6 @@
 # GPU-Computing-Node Installation
 
-New version of the script in Makefile style. Invoke with "make" when logged in as root.
+New version of the script in Makefile style. Invoke with "make -f ./Mersenne-gpu.Makefile" when logged in as root.
 
 This Makefile builds a complete Mersenne GPU Computing Node, it installs all the dependencies needed to run Mersenne GPU computing applications, then installs and compile the applications.
 
