@@ -31,10 +31,9 @@ mfakto:
 primetools:
   cd /root
   git clone https://github.com/teknohog/primetools
-  cd /root
 
 gpuowl:
+  cd /root
   git clone https://github.com/preda/gpuowl
   cd gpuowl
   make
-  cd /root
