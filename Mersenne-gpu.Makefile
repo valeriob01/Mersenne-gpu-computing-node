@@ -1,4 +1,4 @@
-all: utilities dependencies rocm mfakto primetools gpuowl
+all: utilities dependencies rocm mfakto primetools gpuowl end
 
 utilities:
   apt update
@@ -37,3 +37,6 @@ gpuowl:
   git clone https://github.com/preda/gpuowl
   cd gpuowl
   make
+
+end:
+  cd ~
