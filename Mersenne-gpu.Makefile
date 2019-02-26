@@ -25,7 +25,7 @@ rocm:
 mfakto:
   cd /root
   git clone https://github.com/preda/mfakto
-  cd mfakto/src
+  cd /root/mfakto/src
   make
 
 primetools:
@@ -35,7 +35,7 @@ primetools:
 gpuowl:
   cd /root
   git clone https://github.com/preda/gpuowl
-  cd gpuowl
+  cd /root/gpuowl
   make
 
 end:
