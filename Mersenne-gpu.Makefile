@@ -19,8 +19,8 @@ rocm:
   usermod -a -G video root
   echo 'ADD_EXTRA_GROUPS=1' | tee -a /etc/adduser.conf
   echo 'EXTRA_GROUPS=video' | tee -a /etc/adduser.conf
-  echo 'export LD_LIBRARY_PATH=/opt/rocm/opencl/lib/x86_64:/opt/rocm/hsa/lib:$LD_LIBRARY_PATH' | tee -a /etc/profile.d/rocm.sh
-  echo 'export PATH=$PATH:/opt/rocm/bin:/opt/rocm/profiler/bin:/opt/rocm/opencl/bin/x86_64' | tee -a /etc/profile.d/rocm.sh
+  echo 'export LD_LIBRARY_PATH=/opt/rocm/opencl/lib/x86_64:/opt/rocm/hsa/lib:$$LD_LIBRARY_PATH' | tee -a /etc/profile.d/rocm.sh
+  echo 'export PATH=$$PATH:/opt/rocm/bin:/opt/rocm/profiler/bin:/opt/rocm/opencl/bin/x86_64' | tee -a /etc/profile.d/rocm.sh
 
 mfakto:
   cd /root
