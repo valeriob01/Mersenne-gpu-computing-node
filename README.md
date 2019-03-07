@@ -23,3 +23,6 @@ This Makefile builds a complete Mersenne GPU Computing Node, it installs all the
 1. Copy /root/mfakto, /root/primetools and /root/gpuowl to your home directory, command: cp -r \<orig_directory> \<dest_directory>;
 2. Change ownership of /home/\<username>/mfakto, /home/\<username>/primetools and /home/\<username>/gpuowl to your username, so that reading and saving files works, command: chown -R \<username>:\<groupname> \<directory>
 3. Add yourself to the video group, command: usermod -a -G video \<username>
+
+# Installation of amdgpu-pro
+The Ubuntu system is needed, for live-server add multiverse repository before installing the driver.
