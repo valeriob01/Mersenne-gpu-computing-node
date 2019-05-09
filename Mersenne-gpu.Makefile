@@ -1,4 +1,4 @@
-all: utilities dependencies rocm mfakto primetools gpuowl end
+all: utilities dependencies rocm mfakto primetools gpuowl
 
 utilities:
   apt update
@@ -38,5 +38,3 @@ gpuowl:
   cd /root/gpuowl
   make
 
-end:
-  cd ~
