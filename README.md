@@ -1,4 +1,4 @@
-# GPU-Computing-Node Installation
+# Mersenne GPU-Computing-Node Installation
 
 New version of the script in Makefile style. Invoke with "make -f ./Mersenne-gpu.Makefile \<section-name>" when logged in as root. The makefile is made for manual installation and requires user confirmation at every installation step. If the user wants to automate the process, they have to add the -y option to apt, but this is not recommended as if some step fails, subsequent steps may also fail. The make command should however warn when an error occurs.
 The section-name can be: utilities, dependencies, rocm, mfakto, primetools, gpuowl.
