@@ -5,7 +5,7 @@ set -o xtrace
 
 # For each gpu model run this script changing the first argument to reflect hardware name.
 # Keep gpuowl.log
-
+# For amdgpu-pro a change is required: -use NOASM
 cd gpuowl-bench
 
 # First GIMPS discovered prime
