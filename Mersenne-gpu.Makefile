@@ -14,7 +14,7 @@ rocm:
   wget -qO - http://repo.radeon.com/rocm/apt/debian/rocm.gpg.key | apt-key add -
   echo 'deb [arch=amd64] http://repo.radeon.com/rocm/apt/debian/ xenial main' | tee /etc/apt/sources.list.d/rocm.list
   apt update
-  apt install rocm-dev
+  apt install rock-dkms rocm-opencl
   echo 'SUBSYSTEM=="kfd", KERNEL=="kfd", TAG+="uaccess", GROUP="video"' | tee /etc/udev/rules.d/70-kfd.rules
   usermod -a -G video root
   echo 'ADD_EXTRA_GROUPS=1' | tee -a /etc/adduser.conf
