@@ -2,7 +2,7 @@ all: utilities dependencies rocm mfakto primetools gpuowl
 
 utilities:
   apt update
-  apt install ntp tmux lm-sensors make git
+  apt install ntp tmux lm-sensors make git g++
 
 dependencies:
   apt install libgmp-dev
