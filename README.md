@@ -26,3 +26,7 @@ This Makefile builds a complete Mersenne GPU Computing Node, it installs all the
 
 # Installation of amdgpu-pro
 The Ubuntu system is needed, for live-server add multiverse repository before installing the driver.
+
+# Benchmarking
+
+For benchmarking I have a directory named gpuowl-bench, just call the gpuowl-bench.sh Bash script.
