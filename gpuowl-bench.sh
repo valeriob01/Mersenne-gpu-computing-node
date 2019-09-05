@@ -9,8 +9,8 @@ set -o xtrace
 cd gpuowl-bench
 
 # First GIMPS discovered prime
-./gpuowl -prp 1398269 -iters 50000 -log 10000 -cpu $1 -results bench-1398269-$1.txt
+./gpuowl -prp 1398269 -iters 50000 -log 5000 -cpu $1 -results bench-1398269-$1.txt
 # Last known prime
-./gpuowl -prp 82589933 -iters 50000 -log 10000 -cpu $1 -results bench-82589933-$1.txt
+./gpuowl -prp 82589933 -iters 50000 -log 5000 -cpu $1 -results bench-82589933-$1.txt
 # Largest SEL computed exponent
-./gpuowl -prp 332252533 -iters 50000 -log 10000 -cpu $1 -results bench-332252533-$1.txt
+./gpuowl -prp 332252533 -iters 50000 -log 5000 -cpu $1 -results bench-332252533-$1.txt
