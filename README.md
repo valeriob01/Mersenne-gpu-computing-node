@@ -29,4 +29,4 @@ The Ubuntu system is needed, for live-server add multiverse repository before in
 
 # Benchmarking
 
-For benchmarking I have a directory named gpuowl-bench, just call the gpuowl-bench.sh Bash script. It assumes that you have a directory named "gpuowl-bench".
+For benchmarking I have a directory named gpuowl-bench, just call the gpuowl-bench.sh Bash script. It assumes that you have a directory named "gpuowl-bench". The first command-line argument should be the gpu model name and/or number.
