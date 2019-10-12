@@ -23,17 +23,14 @@ rocm:
   echo 'export PATH=$$PATH:/bin:/sbin:/usr/bin:/usr/sbin:/opt/rocm/bin:/opt/rocm/profiler/bin:/opt/rocm/opencl/bin/x86_64' | tee -a /etc/profile.d/rocm.sh
 
 mfakto:
-  cd /root
   git clone https://github.com/preda/mfakto
-  cd /root/mfakto/src
+  cd mfakto/src
   make
 
 primetools:
-  cd /root
   git clone https://github.com/teknohog/primetools
 
 gpuowl:
-  cd /root
   git clone https://github.com/preda/gpuowl
-  cd /root/gpuowl
+  cd gpuowl
   make
