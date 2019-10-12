@@ -1,10 +1,10 @@
-all: utilities dependencies rocm mfakto primetools gpuowl
+all: base deps rocm mfakto primetools gpuowl
 
-utilities:
+base:
   apt update
   apt install ntp tmux lm-sensors make git g++
 
-dependencies:
+deps:
   apt install libgmp-dev
 
 rocm:
