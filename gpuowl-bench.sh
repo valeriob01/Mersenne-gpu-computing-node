@@ -13,4 +13,4 @@ cd gpuowl-bench
 # Last known prime
 ./gpuowl -prp 82589933 -iters 100000 -log 5000 -cpu $1 -results bench-82589933-$1.txt
 # Largest SEL computed exponent
-./gpuowl -prp 332252533 -iters 100000 -log 5000 -cpu $1 -results bench-332252533-$1.txt
+./gpuowl -prp 332412937 -iters 100000 -log 5000 -cpu $1 -results bench-332252533-$1.txt
