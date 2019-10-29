@@ -10,7 +10,7 @@ set -o xtrace
 # For amdgpu-pro a change is required: -use NO_ASM
 cd gpuowl-bench
 
-COUNTER=0
+COUNTER=1
 while [  $COUNTER -lt $2 ]; do
 echo GPU PRP benchmark loop $COUNTER is running now.
 echo ***********************************************
