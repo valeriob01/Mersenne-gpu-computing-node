@@ -4,7 +4,7 @@
 set -o xtrace
 
 # For each gpu model run this script changing the first argument to reflect hardware name;
-# The loop number is the second argument; 
+# The loop number is the second argument: 10 = 1 million iterations per exponent;
 
 # Keep gpuowl.log
 # For amdgpu-pro a change is required: -use NO_ASM
