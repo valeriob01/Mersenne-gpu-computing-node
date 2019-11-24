@@ -16,7 +16,7 @@ rocm:
   apt update
   apt install rock-dkms rocm-opencl rocm-opencl-dev rocm-smi
   echo 'SUBSYSTEM=="kfd", KERNEL=="kfd", TAG+="uaccess", GROUP="video"' | tee /etc/udev/rules.d/70-kfd.rules
-  usermod -a -G video root
+  /usr/sbin/usermod -a -G video root
   echo 'ADD_EXTRA_GROUPS=1' | tee -a /etc/adduser.conf
   echo 'EXTRA_GROUPS=video' | tee -a /etc/adduser.conf
   echo 'export LD_LIBRARY_PATH=/opt/rocm/opencl/lib/x86_64:/opt/rocm/hsa/lib:$$LD_LIBRARY_PATH' | tee -a /etc/profile.d/rocm.sh
