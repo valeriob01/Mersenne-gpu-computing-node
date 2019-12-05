@@ -10,8 +10,6 @@ The section-name can be: utilities, dependencies, rocm, mfakto, primetools, gpuo
 
 This Makefile builds a complete Mersenne GPU Computing Node, it installs all the dependencies needed to run Mersenne GPU computing applications, then installs and compile the applications.
 
-- Base: NTP, tmux, lm-sensors, g++
-
 - Deps: libgmp-dev
 
 - ROCm: Radeon Open Compute driver
