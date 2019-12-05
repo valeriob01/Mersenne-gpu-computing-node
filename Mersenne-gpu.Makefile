@@ -1,11 +1,4 @@
-all: base deps rocm mfakto primetools gpuowl
-
-base:
-  apt update
-  apt install ntp tmux lm-sensors g++
-
-deps:
-  apt install libgmp-dev
+all: rocm mfakto primetools gpuowl
 
 rocm:
   apt update
