@@ -1,3 +1,5 @@
+all: rocm
+
 rocm:
   apt update
   apt dist-upgrade
