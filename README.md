@@ -1,6 +1,6 @@
 # Mersenne GPU-Computing-Node Installation Procedure
 
-## Step 1: GPU Drivers Installation
+## Step 1: GPU Drivers installation
 ### ROCm
 Run make -f install-rocm.Makefile
 
@@ -25,7 +25,7 @@ The script prep-sys.sh has been created to prepare the system before starting th
 - g++
 - libgmp-dev
 
-## Step 3:
+## Step 3: Program installation
 New version of the script in Makefile style. Invoke with "make -f ./Mersenne-gpu.Makefile \<section-name>" when logged in as root. The makefile is made for manual installation and requires user confirmation at every installation step. If the user wants to automate the process, they have to add the -y option to apt, but this is not recommended as if some step fails, subsequent steps may also fail. The make command should however warn when an error occurs.
 
 The section-name can be: mfakto, primetools, gpuowl.
