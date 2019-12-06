@@ -5,7 +5,7 @@
 Run make -f install-rocm.Makefile
 
 ### amdgpu-pro
-The Ubuntu system is needed, for live-server add multiverse repository before installing the driver.
+The Ubuntu system is needed, for live-server add multiverse repository before installing the driver. Follow the instructions in the driver's bundle.
 
 ### Nvidia driver
 Install nvidia-driver, it will also install opencl.
