@@ -10,17 +10,17 @@ set -o xtrace
 # For amdgpu-pro a change is required: -use NO_ASM
 cd gpuowl-bench
 
-COUNTER=1
+COUNTER=0
 while [  $COUNTER -lt $2 ]; do
 echo GPU PRP benchmark loop $COUNTER is running now.
 echo ***********************************************
 
-# First GIMPS discovered prime
+# First GIMPS discovered Mersenne prime
 ./gpuowl -prp 1398269 -iters 100000 -log 5000 -cpu $1 -results bench-1398269-$1-$COUNTER.txt
-# Last known prime
+# Last known Mersenne prime
 ./gpuowl -prp 82589933 -iters 100000 -log 5000 -cpu $1 -results bench-82589933-$1-$COUNTER.txt
 # Largest SEL computed exponent
-./gpuowl -prp 332412937 -iters 100000 -log 5000 -cpu $1 -results bench-332412937-$1-$COUNTER.txt
+./gpuowl -prp 333689743 -iters 100000 -log 5000 -cpu $1 -results bench-332412937-$1-$COUNTER.txt
 
 let COUNTER=COUNTER+1 
 done
